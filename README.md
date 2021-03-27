@@ -5,7 +5,7 @@ web frameworks.
 
 # How to use Lottie-interactive
 
-##_Nuxt.js_
+## _Nuxt.js_
 
 - ```npm -i lottie-interactive```
 - Create a plugin for lottie-interactive in ```/plugins/lottie-interactive.client.js```:
