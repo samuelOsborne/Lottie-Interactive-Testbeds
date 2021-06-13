@@ -347,6 +347,74 @@ export default function Home() {
             </footer>
           </article>
         </div>
+
+        <div className="my-1 w-full px-1 md:w-1/2 lg:my-4 lg:px-4 lg:w-1/4">
+          <article className="overflow-hidden rounded-lg shadow-lg">
+            <lottie-interactive
+              path="/animations/svgenius-logo.json"
+              autoplay
+              loop
+              speed="5"
+            />
+            <footer
+              className="flex items-center justify-between leading-none p-2 md:p-4"
+            >
+              <div className="row-auto">
+                <h1 className="text-lg underline">Attribute name:</h1>
+                <h1 className="ml-2 text-md mt-2">"speed"</h1>
+                <h1 className="text-lg underline mt-4">Code snippet:</h1>
+                <p
+                  className="ml-2 text-sm text-white p-1.5 mt-2 bg-gradient-to-r from-purple-400 via-pink-500 to-red-500"
+                >
+                  &lt;lottie-interactive
+                  path="/animations/svgenius-logo.json"
+                  autoplay
+                  loop
+                  speed="5"
+                  /&lt;
+                </p>
+                <h1 className="text-lg underline mt-4">Description:</h1>
+                <p className="ml-2 text-md mt-2">
+                  Define the speed of the animation
+                </p>
+              </div>
+            </footer>
+          </article>
+        </div>
+
+        <div className="my-1 w-full px-1 md:w-1/2 lg:my-4 lg:px-4 lg:w-1/4">
+          <article className="overflow-hidden rounded-lg shadow-lg">
+            <lottie-interactive
+              path="/animations/svgenius-logo.json"
+              autoplay
+              loop
+              delay="5000"
+            />
+            <footer
+              className="flex items-center justify-between leading-none p-2 md:p-4"
+            >
+              <div className="row-auto">
+                <h1 className="text-lg underline">Attribute name:</h1>
+                <h1 className="ml-2 text-md mt-2">"delay"</h1>
+                <h1 className="text-lg underline mt-4">Code snippet:</h1>
+                <p
+                  className="ml-2 text-sm text-white p-1.5 mt-2 bg-gradient-to-r from-purple-400 via-pink-500 to-red-500"
+                >
+                  &lt;lottie-interactive
+                  path="/animations/svgenius-logo.json"
+                  autoplay
+                  loop
+                  delay="5000"
+                  /&lt;
+                </p>
+                <h1 className="text-lg underline mt-4">Description:</h1>
+                <p className="ml-2 text-md mt-2">
+                  Delay the loading of the animation
+                </p>
+              </div>
+            </footer>
+          </article>
+        </div>
       </div>
     </div>
   );
