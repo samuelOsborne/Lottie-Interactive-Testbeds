@@ -16,5 +16,11 @@ module.exports = {
   ],
   plugins: ['prettier'],
   // add your custom rules here
-  rules: {},
+  rules: {
+    test: /\.js$/,
+    enforce: 'pre',
+    use: 'eslint-loader',
+    include: path.resolve(__dirname), // Look only in your project folder
+    exclude: '/node_modules/'
+  },
 }
